@@ -1,0 +1,37 @@
+{
+  "sentProblemSlugs": [
+    "contains-duplicate",
+    "valid-anagram",
+    "two-sum"
+  ],
+  "history": [
+    {
+      "sentAt": "2026-06-08T09:21:20.941Z",
+      "topic": "Arrays & Hashing",
+      "level": "Beginner",
+      "problems": [
+        {
+          "number": 217,
+          "title": "Contains Duplicate",
+          "difficulty": "Easy",
+          "slug": "contains-duplicate",
+          "url": "https://leetcode.com/problems/contains-duplicate/"
+        },
+        {
+          "number": 242,
+          "title": "Valid Anagram",
+          "difficulty": "Easy",
+          "slug": "valid-anagram",
+          "url": "https://leetcode.com/problems/valid-anagram/"
+        },
+        {
+          "number": 1,
+          "title": "Two Sum",
+          "difficulty": "Easy",
+          "slug": "two-sum",
+          "url": "https://leetcode.com/problems/two-sum/"
+        }
+      ]
+    }
+  ]
+}

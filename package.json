@@ -1,0 +1,13 @@
+{
+  "name": "leetcode-curator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "send": "node scripts/send-curated-problems.mjs",
+    "check": "node --check scripts/send-curated-problems.mjs"
+  },
+  "dependencies": {
+    "nodemailer": "^8.0.10"
+  }
+}
