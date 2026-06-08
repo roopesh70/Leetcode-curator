@@ -286,8 +286,14 @@ async function pickWithOpenAI(topic, candidates, count) {
 }
 
 async function sendEmail({ topic, level, problems }) {
-  const required = ["RECIPIENT_EMAIL", "SMTP_HOST", "SMTP_USER", "SMTP_PASS"];
+  const required = ["SMTP_HOST", "SMTP_USER", "SMTP_PASS"];
   const missing = required.filter((name) => !process.env[name]);
+  const recipients = getRecipients();
+
+  if (recipients.length === 0) {
+    missing.unshift("RECIPIENT_EMAILS or RECIPIENT_EMAIL");
+  }
+
   if (missing.length > 0) {
     throw new Error(`Missing environment variable(s): ${missing.join(", ")}`);
   }
@@ -304,11 +310,19 @@ async function sendEmail({ topic, level, problems }) {
 
   await transporter.sendMail({
     from: `"LeetCode Curator" <${process.env.SMTP_USER}>`,
-    to: process.env.RECIPIENT_EMAIL,
+    to: recipients,
     subject: `LeetCode Curator: ${topic} (${level})`,
     text: buildTextEmail({ topic, level, problems }),
     html: buildHtmlEmail({ topic, level, problems }),
   });
+}
+
+function getRecipients() {
+  const value = process.env.RECIPIENT_EMAILS || process.env.RECIPIENT_EMAIL || "";
+  return value
+    .split(",")
+    .map((email) => email.trim())
+    .filter(Boolean);
 }
 
 function buildTextEmail({ topic, level, problems }) {

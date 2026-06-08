@@ -10,7 +10,7 @@ Automated LeetCode email curator that sends a beginner-to-advanced problem set 3
    npm install
    ```
 
-2. Copy `.env.example` values into your shell or a local `.env` loader.
+2. Copy `.env.example` values into `.env.local`.
 
 3. For Gmail, create an app password and use it as `SMTP_PASS`.
 
@@ -26,7 +26,7 @@ The workflow in `.github/workflows/leetcode-curator.yml` runs on Monday, Wednesd
 
 Add these repository secrets:
 
-- `RECIPIENT_EMAIL`
+- `RECIPIENT_EMAILS`, comma-separated for multiple emails
 - `SMTP_HOST` such as `smtp.gmail.com`
 - `SMTP_PORT` such as `465`
 - `SMTP_SECURE` such as `true`
