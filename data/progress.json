@@ -2,7 +2,10 @@
   "sentProblemSlugs": [
     "contains-duplicate",
     "valid-anagram",
-    "two-sum"
+    "two-sum",
+    "binary-search",
+    "search-a-2d-matrix",
+    "koko-eating-bananas"
   ],
   "history": [
     {
@@ -30,6 +33,34 @@
           "difficulty": "Easy",
           "slug": "two-sum",
           "url": "https://leetcode.com/problems/two-sum/"
+        }
+      ]
+    },
+    {
+      "sentAt": "2026-06-10T06:35:01.075Z",
+      "topic": "Binary Search",
+      "level": "Intermediate",
+      "problems": [
+        {
+          "number": 704,
+          "title": "Binary Search",
+          "difficulty": "Easy",
+          "slug": "binary-search",
+          "url": "https://leetcode.com/problems/binary-search/"
+        },
+        {
+          "number": 74,
+          "title": "Search a 2D Matrix",
+          "difficulty": "Medium",
+          "slug": "search-a-2d-matrix",
+          "url": "https://leetcode.com/problems/search-a-2d-matrix/"
+        },
+        {
+          "number": 875,
+          "title": "Koko Eating Bananas",
+          "difficulty": "Medium",
+          "slug": "koko-eating-bananas",
+          "url": "https://leetcode.com/problems/koko-eating-bananas/"
         }
       ]
     }
