@@ -5,7 +5,9 @@
     "two-sum",
     "binary-search",
     "search-a-2d-matrix",
-    "koko-eating-bananas"
+    "koko-eating-bananas",
+    "number-of-islands",
+    "clone-graph"
   ],
   "history": [
     {
@@ -61,6 +63,27 @@
           "difficulty": "Medium",
           "slug": "koko-eating-bananas",
           "url": "https://leetcode.com/problems/koko-eating-bananas/"
+        }
+      ]
+    },
+    {
+      "sentAt": "2026-06-12T08:09:50.739Z",
+      "topic": "Graphs",
+      "level": "Advanced",
+      "problems": [
+        {
+          "number": 200,
+          "title": "Number of Islands",
+          "difficulty": "Medium",
+          "slug": "number-of-islands",
+          "url": "https://leetcode.com/problems/number-of-islands/"
+        },
+        {
+          "number": 133,
+          "title": "Clone Graph",
+          "difficulty": "Medium",
+          "slug": "clone-graph",
+          "url": "https://leetcode.com/problems/clone-graph/"
         }
       ]
     }
