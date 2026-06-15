@@ -7,7 +7,9 @@
     "search-a-2d-matrix",
     "koko-eating-bananas",
     "number-of-islands",
-    "clone-graph"
+    "clone-graph",
+    "find-minimum-in-rotated-sorted-array",
+    "search-in-rotated-sorted-array"
   ],
   "history": [
     {
@@ -84,6 +86,27 @@
           "difficulty": "Medium",
           "slug": "clone-graph",
           "url": "https://leetcode.com/problems/clone-graph/"
+        }
+      ]
+    },
+    {
+      "sentAt": "2026-06-15T09:44:46.014Z",
+      "topic": "Binary Search",
+      "level": "Intermediate",
+      "problems": [
+        {
+          "number": 153,
+          "title": "Find Minimum in Rotated Sorted Array",
+          "difficulty": "Medium",
+          "slug": "find-minimum-in-rotated-sorted-array",
+          "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/"
+        },
+        {
+          "number": 33,
+          "title": "Search in Rotated Sorted Array",
+          "difficulty": "Medium",
+          "slug": "search-in-rotated-sorted-array",
+          "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
         }
       ]
     }
