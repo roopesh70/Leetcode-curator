@@ -9,7 +9,9 @@
     "number-of-islands",
     "clone-graph",
     "find-minimum-in-rotated-sorted-array",
-    "search-in-rotated-sorted-array"
+    "search-in-rotated-sorted-array",
+    "group-anagrams",
+    "top-k-frequent-elements"
   ],
   "history": [
     {
@@ -107,6 +109,27 @@
           "difficulty": "Medium",
           "slug": "search-in-rotated-sorted-array",
           "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+        }
+      ]
+    },
+    {
+      "sentAt": "2026-06-17T08:41:50.355Z",
+      "topic": "Arrays & Hashing",
+      "level": "Beginner",
+      "problems": [
+        {
+          "number": 49,
+          "title": "Group Anagrams",
+          "difficulty": "Medium",
+          "slug": "group-anagrams",
+          "url": "https://leetcode.com/problems/group-anagrams/"
+        },
+        {
+          "number": 347,
+          "title": "Top K Frequent Elements",
+          "difficulty": "Medium",
+          "slug": "top-k-frequent-elements",
+          "url": "https://leetcode.com/problems/top-k-frequent-elements/"
         }
       ]
     }
