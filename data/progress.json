@@ -11,7 +11,9 @@
     "find-minimum-in-rotated-sorted-array",
     "search-in-rotated-sorted-array",
     "group-anagrams",
-    "top-k-frequent-elements"
+    "top-k-frequent-elements",
+    "max-area-of-island",
+    "pacific-atlantic-water-flow"
   ],
   "history": [
     {
@@ -130,6 +132,27 @@
           "difficulty": "Medium",
           "slug": "top-k-frequent-elements",
           "url": "https://leetcode.com/problems/top-k-frequent-elements/"
+        }
+      ]
+    },
+    {
+      "sentAt": "2026-06-19T08:53:26.114Z",
+      "topic": "Graphs",
+      "level": "Advanced",
+      "problems": [
+        {
+          "number": 695,
+          "title": "Max Area of Island",
+          "difficulty": "Medium",
+          "slug": "max-area-of-island",
+          "url": "https://leetcode.com/problems/max-area-of-island/"
+        },
+        {
+          "number": 417,
+          "title": "Pacific Atlantic Water Flow",
+          "difficulty": "Medium",
+          "slug": "pacific-atlantic-water-flow",
+          "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/"
         }
       ]
     }
