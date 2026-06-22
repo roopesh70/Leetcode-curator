@@ -13,7 +13,8 @@
     "group-anagrams",
     "top-k-frequent-elements",
     "max-area-of-island",
-    "pacific-atlantic-water-flow"
+    "pacific-atlantic-water-flow",
+    "word-ladder"
   ],
   "history": [
     {
@@ -153,6 +154,20 @@
           "difficulty": "Medium",
           "slug": "pacific-atlantic-water-flow",
           "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/"
+        }
+      ]
+    },
+    {
+      "sentAt": "2026-06-22T09:29:56.047Z",
+      "topic": "Graphs",
+      "level": "Advanced",
+      "problems": [
+        {
+          "number": 127,
+          "title": "Word Ladder",
+          "difficulty": "Hard",
+          "slug": "word-ladder",
+          "url": "https://leetcode.com/problems/word-ladder/"
         }
       ]
     }
