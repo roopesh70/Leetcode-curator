@@ -14,7 +14,10 @@
     "top-k-frequent-elements",
     "max-area-of-island",
     "pacific-atlantic-water-flow",
-    "word-ladder"
+    "word-ladder",
+    "valid-palindrome",
+    "two-sum-ii-input-array-is-sorted",
+    "3sum"
   ],
   "history": [
     {
@@ -168,6 +171,34 @@
           "difficulty": "Hard",
           "slug": "word-ladder",
           "url": "https://leetcode.com/problems/word-ladder/"
+        }
+      ]
+    },
+    {
+      "sentAt": "2026-06-24T07:01:00.327Z",
+      "topic": "Two Pointers",
+      "level": "Beginner",
+      "problems": [
+        {
+          "number": 125,
+          "title": "Valid Palindrome",
+          "difficulty": "Easy",
+          "slug": "valid-palindrome",
+          "url": "https://leetcode.com/problems/valid-palindrome/"
+        },
+        {
+          "number": 167,
+          "title": "Two Sum II - Input Array Is Sorted",
+          "difficulty": "Medium",
+          "slug": "two-sum-ii-input-array-is-sorted",
+          "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/"
+        },
+        {
+          "number": 15,
+          "title": "3Sum",
+          "difficulty": "Medium",
+          "slug": "3sum",
+          "url": "https://leetcode.com/problems/3sum/"
         }
       ]
     }
