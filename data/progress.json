@@ -17,7 +17,10 @@
     "word-ladder",
     "valid-palindrome",
     "two-sum-ii-input-array-is-sorted",
-    "3sum"
+    "3sum",
+    "reverse-linked-list",
+    "merge-two-sorted-lists",
+    "linked-list-cycle"
   ],
   "history": [
     {
@@ -199,6 +202,34 @@
           "difficulty": "Medium",
           "slug": "3sum",
           "url": "https://leetcode.com/problems/3sum/"
+        }
+      ]
+    },
+    {
+      "sentAt": "2026-06-26T07:08:21.827Z",
+      "topic": "Linked List",
+      "level": "Intermediate",
+      "problems": [
+        {
+          "number": 206,
+          "title": "Reverse Linked List",
+          "difficulty": "Easy",
+          "slug": "reverse-linked-list",
+          "url": "https://leetcode.com/problems/reverse-linked-list/"
+        },
+        {
+          "number": 21,
+          "title": "Merge Two Sorted Lists",
+          "difficulty": "Easy",
+          "slug": "merge-two-sorted-lists",
+          "url": "https://leetcode.com/problems/merge-two-sorted-lists/"
+        },
+        {
+          "number": 141,
+          "title": "Linked List Cycle",
+          "difficulty": "Easy",
+          "slug": "linked-list-cycle",
+          "url": "https://leetcode.com/problems/linked-list-cycle/"
         }
       ]
     }
