@@ -22,7 +22,9 @@
     "merge-two-sorted-lists",
     "linked-list-cycle",
     "climbing-stairs",
-    "house-robber"
+    "house-robber",
+    "reorder-list",
+    "remove-nth-node-from-end-of-list"
   ],
   "history": [
     {
@@ -253,6 +255,27 @@
           "difficulty": "Medium",
           "slug": "house-robber",
           "url": "https://leetcode.com/problems/house-robber/"
+        }
+      ]
+    },
+    {
+      "sentAt": "2026-07-01T07:55:24.273Z",
+      "topic": "Linked List",
+      "level": "Intermediate",
+      "problems": [
+        {
+          "number": 143,
+          "title": "Reorder List",
+          "difficulty": "Medium",
+          "slug": "reorder-list",
+          "url": "https://leetcode.com/problems/reorder-list/"
+        },
+        {
+          "number": 19,
+          "title": "Remove Nth Node From End of List",
+          "difficulty": "Medium",
+          "slug": "remove-nth-node-from-end-of-list",
+          "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
         }
       ]
     }
